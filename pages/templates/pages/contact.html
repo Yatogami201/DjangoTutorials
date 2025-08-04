@@ -1,0 +1,12 @@
+{% extends 'pages/base.html' %}
+{% block title %}{{ title }}{% endblock %}
+{% block header_title %}{{ subtitle }}{% endblock %}
+{% block content %}
+<div class="container">
+  <ul class="list-group">
+    <li class="list-group-item"><strong>Email:</strong> {{ email }}</li>
+    <li class="list-group-item"><strong>Address:</strong> {{ address }}</li>
+    <li class="list-group-item"><strong>Phone:</strong> {{ phone }}</li>
+  </ul>
+</div>
+{% endblock %}
